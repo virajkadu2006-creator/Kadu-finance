@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0A1628;
+  --color-gold: #C9A84C;
+  --color-warm-white: #FAFAF8;
+  --color-charcoal: #1A1A2E;
+
+  --font-sans: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-playfair), ui-serif, Georgia, serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-warm-white);
+    color: var(--color-charcoal);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
